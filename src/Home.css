@@ -1,0 +1,137 @@
+.home__bg{
+    background-image: url(../src/img/fotis-fotopoulos-LJ9KY8pIH3E-unsplash.jpg);
+    /*background-color: #010101;*/
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 20%;
+
+    height: 82%;
+    background-size: cover;
+    border-radius: 20%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 1px 10px 10px 10px;
+    
+}
+
+.navigation {
+    background-color: #f9004d;
+    border-radius: 16px;
+}
+li.nav__items{
+    font-size: 18px;
+    padding-bottom: 15px;
+    color: #08f7fe;
+    font-weight: bold;
+}
+
+li.nav__items:hover {
+    transform: scale(1.2);
+    transition: 1s ease-out;
+}
+.home__content{
+    padding: 125px 0px;
+}
+h1.home__text{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: rgba(198,201,216,.75)!important;
+}
+h2.home__text{
+    font-size: 54px;
+    line-height: 54px;
+    font-weight: 800;
+    font-family: Montserrat,sans-serif;
+}
+h3.home__text{
+    font-size: 50px;
+    font-weight: 800;
+    font-family: cursive;
+    line-height: 40px;
+}
+h4.home__text{
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 40px;
+    font-family: "Poppins SemiBold";
+    
+}
+.header{
+    transition: .4s all ease;
+}
+.header.active{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    padding: 0px 30px;
+    background-color: #191919;
+}
+.toggle__menu {
+    display: inline-flex;
+    justify-content: flex-end;
+    float: right;
+    z-index: 1000;
+    width: 100%;
+}
+ul.sidebar.d__flex {
+    flex-wrap: wrap;
+    position: fixed;
+    left: 2%;
+    top: 32%;
+    background: #f9004d;
+    justify-content: center;
+    width: 120px;
+    height: 250px;
+    border-radius: 16px;
+    flex-direction: column;
+    font-weight: bold;
+    
+}
+li.sideNavbar{
+    /*padding: 25px 30px;*/
+    padding: 10px;
+}
+
+li.sideNavbar:hover {
+    transform: scale(1.2);
+    transition: 1s ease-out;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 768px){
+ .header{
+     justify-content: space-between;
+ }
+ .navigation.pxy__30 {
+        display: none;
+    }
+h2.white.pz__10 {
+    font-size: 50px!important;
+}
+svg.bi.bi-justify.white.pointer {
+    width: 30px;
+    height: 20px;
+}
+}
+
+@media only screen and (max-width: 425px){
+    h2.home__text.pz__10{
+    font-size: 32px;
+}
+h3.sweet.pz__10 {
+    font-size: 40px;
+}
+h1.home__text {
+    font-size: 14px;
+}
+h4.home__text {
+    font-size: 45px;
+}
+}
+
+@media only screen and (max-width: 768px) {
+    .toggle_menu {
+        display:none;
+    }
+}
