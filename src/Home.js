@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import "./Home.css";
-import logo from "./img/logo.png";
+import logo from "./img/nav_logo.png";
 
 function Home() {
   // fixed Header
@@ -15,8 +15,8 @@ function Home() {
     <div className="home" id="Home">
       <div className="home__bg">
         <div className="header d__flex align__items__center pxy__30">
-          <div className="logo">
-            <img src={logo} alt="" />
+          <div>
+            <img className="logo" src={logo} alt="" />
           </div>
           <div className="navigation pxy__30">
             <ul className="navbar d__flex">
@@ -43,7 +43,8 @@ function Home() {
 
           {/* Toogle Menu */}
           <div className="toggle__menu">
-            <svg onClick={() => setShow(!show)}
+            <svg
+              onClick={() => setShow(!show)}
               xmlns="http://www.w3.org/2000/svg"
               width="16"
               height="16"
@@ -58,8 +59,8 @@ function Home() {
             </svg>
           </div>
 
-          {show ?(
-          <div className="sideNavbar">
+          {show ? (
+            <div className="sideNavbar">
               <ul className="sidebar d__flex">
                 <li className="sideNavbar">
                   <a href="#Home">Home</a>
@@ -80,18 +81,27 @@ function Home() {
                   <a href="#Contact">Contact</a>
                 </li>
               </ul>
-          </div>
+            </div>
           ) : null}
         </div>
 
         {/* HOME CONTENT */}
-        <div className="container">
+        <div className="container home_container">
           <div className="home__content">
             <div className="home__meta">
-              <h4 className="home__text pz__10">HI, WELCOME TO MY PERSONAL WEB PORTFOLIO.</h4>
-              <h4 className="home__text pz__10"> My name is Irvene Kwambana.</h4>
-              <h4 className="home__text sweet pz__10">A full stack DevOps Software Engineer,</h4>
-              <h6 className="home__text pz__10">Based in Bulawayo, Zimbabwe.</h6>
+              <h1 className="home__text blue pz__10 montserra">
+                HI, WELCOME TO MY PERSONAL WEB PORTFOLIO.
+              </h1>
+              <h1 className="home__text blue pz__10 cursive">
+                {" "}
+                My name is Irvene Kwambana.
+              </h1>
+              <h1 className="home__text sweet pz__10 poppins">
+                A Backend Software Engineer.
+              </h1>
+              <h1 className="home__text blue  pz__10">
+                Based in Bulawayo, Zimbabwe.
+              </h1>
             </div>
           </div>
         </div>

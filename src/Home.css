@@ -14,8 +14,12 @@
     
 }
 
+.logo {
+    border-radius: 15px;
+}
+
 .navigation {
-    background-color: #f9004d;
+    background-color: black;
     border-radius: 16px;
 }
 li.nav__items{
@@ -30,33 +34,32 @@ li.nav__items:hover {
     transition: 1s ease-out;
 }
 .home__content{
-    padding: 125px 0px;
+    
 }
 h1.home__text{
     font-size: 18px;
-    font-weight: 400;
     letter-spacing: 3px;
-    color: rgba(198,201,216,.75)!important;
 }
-h2.home__text{
-    font-size: 54px;
-    line-height: 54px;
-    font-weight: 800;
+.montserra {
     font-family: Montserrat,sans-serif;
 }
-h3.home__text{
-    font-size: 50px;
-    font-weight: 800;
+
+.cursive {
     font-family: cursive;
-    line-height: 40px;
 }
-h4.home__text{
-    font-size: 50px;
-    font-weight: 800;
-    line-height: 40px;
+
+.poppins {
     font-family: "Poppins SemiBold";
-    
 }
+
+.blue {
+    color: white;
+}
+
+.sweet{
+    color: #f9004d;
+}
+
 .header{
     transition: .4s all ease;
 }
@@ -77,7 +80,7 @@ h4.home__text{
 ul.sidebar.d__flex {
     flex-wrap: wrap;
     position: fixed;
-    left: 2%;
+    left: 5%;
     top: 32%;
     background: #f9004d;
     justify-content: center;
@@ -117,17 +120,29 @@ svg.bi.bi-justify.white.pointer {
 
 @media only screen and (max-width: 425px){
     h2.home__text.pz__10{
-    font-size: 32px;
+    
+    }
+
+    h3.sweet.pz__10 {
+    
+    }
+
+    h1.home__text {
+    
+    }
+
+    h4.home__text {
+    font-size: 20px;
+    }
 }
-h3.sweet.pz__10 {
-    font-size: 40px;
-}
-h1.home__text {
-    font-size: 14px;
-}
-h4.home__text {
-    font-size: 45px;
-}
+
+.home_container {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+    border: 2px solid transparent;
 }
 
 @media only screen and (max-width: 768px) {

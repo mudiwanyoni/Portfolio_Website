@@ -1,6 +1,21 @@
 .about{
     background: #191919;
+    text-align: center;
 }
+
+#about {
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    background: linear-gradient( black, black) padding-box,
+    linear-gradient(
+    45deg,
+    #ff52e5,
+    blue
+    ) border-box;
+}
+
 img.about__img{
     border-radius: 16px;
     width: 100%;
@@ -8,12 +23,12 @@ img.about__img{
 h1.about__heading{
     margin-bottom: 10px;
     font-weight: 700;
-    text-align: start;
+    text-align: center;
     font-family: Montserrat,sans-serif;
     font-size: 60px;
 }
 button.about.btn.pointer {
-    display: flex;
+    display: block;
     text-transform: capitalize;
     width: 195px;
     height: 55px;
