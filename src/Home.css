@@ -33,9 +33,7 @@ li.nav__items:hover {
     transform: scale(1.2);
     transition: 1s ease-out;
 }
-.home__content{
-    
-}
+
 h1.home__text{
     font-size: 18px;
     letter-spacing: 3px;
@@ -80,8 +78,8 @@ h1.home__text{
 ul.sidebar.d__flex {
     flex-wrap: wrap;
     position: fixed;
-    left: 5%;
-    top: 32%;
+    right: 3%;
+    top: 28%;
     background: #f9004d;
     justify-content: center;
     width: 120px;
@@ -119,17 +117,6 @@ svg.bi.bi-justify.white.pointer {
 }
 
 @media only screen and (max-width: 425px){
-    h2.home__text.pz__10{
-    
-    }
-
-    h3.sweet.pz__10 {
-    
-    }
-
-    h1.home__text {
-    
-    }
 
     h4.home__text {
     font-size: 20px;
