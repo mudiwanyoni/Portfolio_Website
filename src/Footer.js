@@ -9,9 +9,7 @@ function Footer() {
   return (
     <div className="container footer d-flex">
       <div className="copyright" style={{ color: "white" }}>
-        <p>
-          Copyright © RapidTech Software, Inc 2023. All Rights Reserved.
-        </p>
+        <p>© 2023 RapidTech Software Inc. All Rights Reserved.</p>
       </div>
     </div>
   );
