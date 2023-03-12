@@ -36,7 +36,7 @@ function About() {
                 or brainstorming on bootcamps.
               </p>
               <div className="about__button d__block align__items__center">
-                <a href="My_resume.pdf" download>
+                <a href="irvene_kwambana_cv1.pdf" download>
                   <button className="about btn pointer">Get resume</button>
                 </a>
                 &Nbsp;
