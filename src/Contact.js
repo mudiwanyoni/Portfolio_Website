@@ -1,6 +1,6 @@
 import React from 'react';
 import './Contact.css';
-import contactImg from "./img/irvine3.jpg";
+import contactImg from "./img/download.png";
 
 function Contact() {
     return (
