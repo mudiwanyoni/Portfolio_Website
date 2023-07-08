@@ -35,14 +35,16 @@ function Service() {
               </div>
               <div className="service__meta">
                 <h1 className="service__text">Front-End</h1>
+                <p className="p service__text p__color">* JavaScript</p>
                 <p className="p service__text p__color">
-                  * Html & javaScript(Typescript)
+                  * Responsive web design
                 </p>
+                <p className="p service__text p__color">* Html & Css</p>
                 <p className="p service__text p__color">
                   * Bootstrap & Material UI
                 </p>
                 <p className="p service__text p__color">* ReactJS</p>
-                <p className="p service__text p__color">* Figma (UI Design)</p>
+                <p className="p service__text p__color">* Figma</p>
               </div>
             </div>
           </div>
@@ -70,7 +72,7 @@ function Service() {
                 <h1 className="service__text">Databases</h1>
                 <p className="p service__text p__color">* Postgres</p>
                 <p className="p service__text p__color">* MongoDB</p>
-                <p className="p service__text p__color"></p>
+                <p className="p service__text p__color">* MySql</p>
               </div>
             </div>
           </div>
@@ -96,15 +98,13 @@ function Service() {
                 </svg>
               </div>
               <div className="service__meta">
-                <h1 className="service__text">Backend</h1>
+                <h1 className="service__text">Back-End</h1>
                 <p className="p service__text p__color">* TypeScript</p>
                 <p className="p service__text p__color">* Java</p>
-                <p className="p service__text p__color">* Spring-Boot</p>
-                <p className="p service__text p__color">* Node.JS(Nest)</p>
-                <p className="p service__text p__color">* SQL</p>
-                <p className="p service__text p__color">
-                  * TypeOrm & Spring data JPA
-                </p>
+                <p className="p service__text p__color">* Python</p>
+                <p className="p service__text p__color">* Node.JS</p>
+                <p className="p service__text p__color">* Spring Boot</p>
+                <p className="p service__text p__color">* Sql & NoSql</p>
               </div>
             </div>
           </div>
@@ -184,8 +184,9 @@ function Service() {
               </div>
               <div className="service__meta">
                 <h1 className="service__text">DevOps</h1>
-                <p className="p service__text p__color">* Git & Git Flow</p>
+                <p className="p service__text p__color"></p>
                 <p className="p service__text p__color">* Docker</p>
+                <p className="p service__text p__color">* CI/ CD</p>
               </div>
             </div>
           </div>
