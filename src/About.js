@@ -19,7 +19,7 @@ function About() {
             <h1 className="about__heading">About</h1>
             <div className="about__meta">
               <p className="about__text p__color">
-                I am a competent, energetic and ambitious junior software
+                I am a competent, energetic and ambitious software
                 developer with a strong foundation in math, logic, and
                 cross-platform coding. I seek to work in a highly competitive
                 environment with a perfect challenge and contribute the best for
@@ -37,7 +37,7 @@ function About() {
               </p>
               <div className="about__button d__block align__items__center">
                 <a href="irvene_kwambana_cv1.pdf" download>
-                  <button className="about btn pointer">Get resume</button>
+                  <button className="about btn pointer">Download CV</button>
                 </a>
                 &Nbsp;
                 <a href="#Contact">
